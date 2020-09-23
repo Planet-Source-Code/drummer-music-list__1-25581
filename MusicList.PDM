@@ -1,0 +1,235 @@
+[Root]
+Most Recent Package=Music List W/ Drummer List
+
+
+[Package|Music List|Music List]
+Icon1=MusicList.exe
+Title1=Music List
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Music List|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\0 Visual Basic\Music List\Package
+
+[Package|Music List|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Music List|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Music List|Files Found]
+
+[Package|Music List|Files Released]
+
+[Package|Music List|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Music List|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Music List|Files Added]
+c:\my documents\0 visual basic\music list\readme.txt=
+
+[Package|Music List|Files Removed]
+c:\program files\common files\system\ado\msado21.tlb=
+c:\windows\system\msvcrt.dll=
+
+[Package|Music List|Files In Project]
+C:\My Documents\0 Visual Basic\Music List\MusicList.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=No
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\My Documents\0 Visual Basic\Music List\Readme.txt=Yes
+
+[Package|Music List|Configure Registry Files]
+Applicable=No
+
+[Package|Music List|Configure Remote Servers]
+Applicable=No
+
+[Package|Music List|Install Locations]
+C:\My Documents\0 Visual Basic\Music List\MusicList.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\My Documents\0 Visual Basic\Music List\Readme.txt=$(AppPath)
+
+[Package|Music List|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\0 Visual Basic\Music List\MusicList.exe=No
+C:\My Documents\0 Visual Basic\Music List\Readme.txt=No
+
+[Package|Music List|Distribution]
+Type=multi
+Size=1.2 MB
+Title=MusicList
+
+[Package|Music List|IconGroups]
+Group0=MusicList
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Music List|MusicList]
+Icon1=MusicList.exe
+Title1=MusicList
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Music List|Package]
+PackageFolder=C:\My Documents\0 Visual Basic\Music List\Package
+ProjectFolder=C:\My Documents\0 Visual Basic\Music List
+ServerSideCab=
+File1=C:\My Documents\0 Visual Basic\Music List\Package\setup.exe
+File2=C:\My Documents\0 Visual Basic\Music List\Package\Setup.Lst
+File3=C:\My Documents\0 Visual Basic\Music List\Package\MusicL1.CAB
+File4=C:\My Documents\0 Visual Basic\Music List\Package\MusicL2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Music List W/ Drummer List|Music List]
+Icon1=MusicList.exe
+Title1=Music List
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Music List W/ Drummer List|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\0 Visual Basic\Music List\Package2
+
+[Package|Music List W/ Drummer List|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Music List W/ Drummer List|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Music List W/ Drummer List|Files Found]
+
+[Package|Music List W/ Drummer List|Files Released]
+
+[Package|Music List W/ Drummer List|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=
+
+[Package|Music List W/ Drummer List|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Music List W/ Drummer List|Files Added]
+c:\my documents\0 visual basic\music list\readme.txt=
+c:\my documents\0 visual basic\music list\songs.lst=
+C:\My Documents\0 Visual Basic\Music List\Drummer.lst=
+
+[Package|Music List W/ Drummer List|Files Removed]
+c:\program files\common files\system\ado\msado21.tlb=
+c:\windows\system\msvcrt.dll=
+c:\my documents\0 visual basic\music list\songs.lst=
+
+[Package|Music List W/ Drummer List|Files In Project]
+C:\My Documents\0 Visual Basic\Music List\MusicList.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=No
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\My Documents\0 Visual Basic\Music List\Readme.txt=Yes
+C:\My Documents\0 Visual Basic\Music List\Songs.lst=No
+C:\My Documents\0 Visual Basic\Music List\Drummer.lst=Yes
+
+[Package|Music List W/ Drummer List|Configure Registry Files]
+Applicable=No
+
+[Package|Music List W/ Drummer List|Configure Remote Servers]
+Applicable=No
+
+[Package|Music List W/ Drummer List|Install Locations]
+C:\My Documents\0 Visual Basic\Music List\MusicList.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\My Documents\0 Visual Basic\Music List\Readme.txt=$(AppPath)
+C:\My Documents\0 Visual Basic\Music List\Songs.lst=$(AppPath)
+C:\My Documents\0 Visual Basic\Music List\Drummer.lst=$(AppPath)
+
+[Package|Music List W/ Drummer List|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\0 Visual Basic\Music List\MusicList.exe=No
+C:\My Documents\0 Visual Basic\Music List\Readme.txt=No
+C:\My Documents\0 Visual Basic\Music List\Songs.lst=No
+C:\My Documents\0 Visual Basic\Music List\Drummer.lst=No
+
+[Package|Music List W/ Drummer List|Distribution]
+Type=multi
+Size=1.2 MB
+Title=MusicList
+
+[Package|Music List W/ Drummer List|IconGroups]
+Group0=MusicList
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Music List W/ Drummer List|MusicList]
+Icon1=MusicList.exe
+Title1=MusicList
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Music List W/ Drummer List|Package]
+PackageFolder=C:\My Documents\0 Visual Basic\Music List\Package2
+ProjectFolder=C:\My Documents\0 Visual Basic\Music List
+ServerSideCab=
+File1=C:\My Documents\0 Visual Basic\Music List\Package2\setup.exe
+File2=C:\My Documents\0 Visual Basic\Music List\Package2\Setup.Lst
+File3=C:\My Documents\0 Visual Basic\Music List\Package2\MusicL1.CAB
+File4=C:\My Documents\0 Visual Basic\Music List\Package2\MusicL2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
